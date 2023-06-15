@@ -185,7 +185,6 @@ public class Hooks {
         confirmationdelete.click();
         Thread.sleep(3000);
         driver.quit();
-        
     }
     @After
     public void Teardown()
