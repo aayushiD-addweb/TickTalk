@@ -79,13 +79,37 @@
       <version>3.1.1</version>
     </dependency>
 
-
     <dependency>
       <groupId>com.aventstack</groupId>
       <artifactId>extentreports</artifactId>
       <version>4.0.9</version>
     </dependency>
 
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>5.3.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.comcast.magic-wand</groupId>
+      <artifactId>firefox</artifactId>
+      <version>4.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>com.comcast.magic-wand</groupId>
+      <artifactId>firefox</artifactId>
+      <version>4.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.npm</groupId>
+      <artifactId>is-firefox</artifactId>
+      <version>1.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.webdriver</groupId>
+      <artifactId>webdriver-firefox</artifactId>
+      <version>0.9.7376</version>
+    </dependency>
 
   </dependencies>
 </project>
