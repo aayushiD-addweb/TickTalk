@@ -227,40 +227,6 @@ public class Hooks {
                 System.out.println("confirmationdelete button is disabled.");
             }
         Thread.sleep(3000);
-//
-//        //Linux
-//        System.setProperty("web-driver.gecko.driver", "/home/addweb/TickTalk/contract/geckodriver");
-//        // Launch the Firefox browser with the configured options
-//        FirefoxOptions firefoxOptions = new FirefoxOptions();
-//        firefoxOptions.addArguments("--remote-allow-origins=*");
-//        firefoxOptions.addArguments("--no-sandbox");
-//        firefoxOptions.addArguments("--disable-dev-shm-usage");
-//        // Set any additional options if required
-//        driver = new FirefoxDriver(firefoxOptions);
-//        driver.manage().window().setSize(new Dimension(1600, 900));
-//        driver.get("https://ttstage.addwebprojects.com/");
-//        Thread.sleep(2000);
-//        TakesScreenshot loginlinux = (TakesScreenshot) driver;
-//        Thread.sleep(2000);
-//        //Saving the screenshot in desired location
-//        File source11 = loginlinux.getScreenshotAs(OutputType.FILE);
-//        Thread.sleep(2000);
-//        //Path to the location to save screenshot
-//        FileHandler.copy(source11, new File("/home/addweb/TickTalk/contract/src/test/Screenshots/Login.png"));
-//        Thread.sleep(2000);
-//        System.out.println("Login Page Screenshot is captured");
-//        driver.findElement(By.xpath("/html/body/form/section/div/div/div/div/div[1]/input[1]")).sendKeys("saurabhdhariwal.com@gmail.com");
-//        Thread.sleep(2000);
-//        //Password
-//        driver.findElement(By.xpath("/html/body/form/section/div/div/div/div/div[2]/div[1]/input")).sendKeys("addweb123");
-//        Thread.sleep(2000);
-//        //Login Button
-//        driver.findElement(By.xpath("/html/body/form/section/div/div/div/div/div[2]/button")).click();
-//        Thread.sleep(2000);
-
-
-
-
     }
     @After
     public void Teardown()
